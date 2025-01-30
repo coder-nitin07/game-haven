@@ -1,0 +1,29 @@
+.image-slider{
+    position: relative;
+}
+
+.slider-button{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slider-button button{
+    top: 80%;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 22px;
+    font-weight: 100;
+    color: gray;
+}
+
+@media screen and (max-width: 500px) {
+    .slider-button{
+        display: none;
+    }
+}
