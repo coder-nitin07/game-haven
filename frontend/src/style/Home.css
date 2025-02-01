@@ -23,7 +23,146 @@
 }
 
 @media screen and (max-width: 500px) {
-    .slider-button{
-        display: none;
-    }
+  .slider-button{
+      display: none;
+  }
+}
+
+
+
+
+
+  /* .items-container {
+      display: flex;
+    
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+   
+  .left-container{
+    cursor: pointer;
+    width: 49%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #eee6e6;
+    gap: 10px;
+    transition: 0.5s all ease-in-out;
+  } 
+  
+  .right-container{
+    width: 49%;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .items {
+    width: 48%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .items img{
+    height: 200px;
+    background-size: contain;
+    border-radius: 6px;
+  }
+
+  .right-container h1 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .right-container p {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: 500;
+  }
+  
+
+
+.left-container {
+  width: 49%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 2px 15px;
+  background-color: #f1f1f1; 
+  gap: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.left-container img {
+  width: 100%;
+  height: 81%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.left-container h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.left-container p {
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: 500;
+}
+
+
+.items:hover, .left-container {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+} */
+
+.items-container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.left-container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 49%;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #e9e2e2;
+}
+.left-container img{
+    height: 80%;
+    border-radius: 8px;
+}
+.right-container{ 
+    
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.right-container .items{
+    padding: 10px;
+    border-radius: 8px;
+    width: 49%;
+    background-color: #f1f1f1; 
+    height: 49%;
+}
+.right-container .items img{
+    height: 80%;
+    border-radius: 8px;
+    width: 100%;
 }
