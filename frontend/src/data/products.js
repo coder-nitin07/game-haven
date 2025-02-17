@@ -66,5 +66,21 @@ const gamingMonitors = [
   "https://rukminim2.flixcart.com/image/312/312/kx7vc7k0/monitor/c/9/2/pg259qnr-full-hd-24-5-90lm05q3-b01310-asus-original-imag9q5g8n4zdf6h.jpeg?q=70"
 ];
 
+const imageGame = [
+   { img: '/src/assets/psp-game1.webp', name: 'ASTRO BOT', category: 'upcoming' },
+   { img: '/src/assets/psp-game2.webp', name: 'Call of Duty®: Black Ops 6', category: 'upcoming' },
+   { img: '/src/assets/psp-game3.webp', name: 'Black Myth: Wukong', category: 'upcoming' },
+   { img: '/src/assets/psp-game4.webp', name: 'Sonic X Shadow Generations', category: 'upcoming' },
+   { img: '/src/assets/psp-game5.webp', name: 'Silent Hill 2', category: 'upcoming' },
+   { img: '/src/assets/psp-game6.webp', name: 'Dragon Age: The Veilguard', category: 'upcoming' },
+   { img: '/src/assets/psp-game7.webp', name: 'Metaphor: ReFantazio', category: 'new-release' },
+   { img: '/src/assets/psp-game8.webp', name: 'Dragon Ball: Sparking Zero', category: 'new-release' },
+   { img: '/src/assets/psp-game8.webp', name: 'Dragon Ball: Sparking Zero', category: 'new-release' },
+   { img: '/src/assets/psp-game9.webp', name: 'Warhammer 40,000: Space Marine 2', category: 'new-release' },
+   { img: '/src/assets/psp-game10.webp', name: 'Star Wars™ Outlaws', category: 'new-release' },
+   { img: '/src/assets/psp-game11.webp', name: 'Helldivers™ 2', category: 'new-release' },
+   { img: '/src/assets/psp-game12.webp', name: 'LEGO® Horizon Adventures™', category: 'new-release' },
+   { img: '/src/assets/upcoming-game.webp', name: 'MAFIA', category: 'upcoming' },
+];
 
-export  { items, gamePads }
+export  { items, gamePads, imageGame }

@@ -3,9 +3,9 @@ import {  IoChevronBackOutline, IoChevronForward } from "react-icons/io5";
 
 const HeroSlider = () => {
   const images = [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS26HpPzA74ujrmAeSLZ-pbuLm8SUJeY_Wv9w&s",
-        "https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg",
-        "https://i.etsystatic.com/14746444/r/il/058027/1765470426/il_1080xN.1765470426_fj7p.jpg",
+        "/src/assets/banner1.jpg",
+        "/src/assets/banner2.jpg",
+        "/src/assets/banner3.jpg",
   ];
   const [ currentIndex, setCurrentIndex ] = useState(0);
 
