@@ -83,4 +83,39 @@ const imageGame = [
    { img: '/src/assets/upcoming-game.webp', name: 'MAFIA', category: 'upcoming' },
 ];
 
-export  { items, gamePads, imageGame }
+const gallerySlider = [
+  {
+      bannerImage: '/src/assets/Gallery-section images/slider1.webp',
+      headingImage: '/src/assets/Gallery-section images/banner-logo-1.webp',
+      subImage: '/src/assets/Gallery-section images/semi-slider-image.webp',
+      heading: 'The award-winning strategy game returns',
+      description: "Build the greatest empire the world has even known with Sid Meier's Civilisation VII, available now on PS5 & PS4.",
+      button: 'uy now'
+  },
+  {
+    bannerImage: '/src/assets/Gallery-section images/slider2.webp',
+    headingImage: '/src/assets/Gallery-section images/banner-logo-2.webp',
+    subImage: '/src/assets/Gallery-section images/semi-slider-image-2.webp',
+    heading: 'The award-winning strategy game returns',
+    description: "Build the greatest empire the world has even known with Sid Meier's Civilisation VII, available now on PS5 & PS4.",
+    button: 'Buy now'
+  },
+  {
+    bannerImage: '/src/assets/Gallery-section images/slider3.webp',
+    headingImage: '/src/assets/Gallery-section images/banner-logo-3.webp',
+    subImage: '/src/assets/Gallery-section images/semi-slider-image-3.webp',
+    heading: 'The award-winning strategy game returns',
+    description: "Build the greatest empire the world has even known with Sid Meier's Civilisation VII, available now on PS5 & PS4.",
+    button: 'Buy now'
+  },
+  {
+    bannerImage: '/src/assets/Gallery-section images/slider4.webp',
+    headingImage: '/src/assets/Gallery-section images/banner-logo-4.webp',
+    subImage: '/src/assets/Gallery-section images/semi-slider-image-4.webp',
+    heading: 'The award-winning strategy game returns',
+    description: "Build the greatest empire the world has even known with Sid Meier's Civilisation VII, available now on PS5 & PS4.",
+    button: 'Buy now'
+  }
+];
+
+export  { items, gamePads, imageGame, gallerySlider }

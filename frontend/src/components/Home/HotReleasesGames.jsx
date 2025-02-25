@@ -11,10 +11,10 @@ const HotReleasesGames = () => {
 
   const sort = (data)=>{
       const cards = imageGame.filter((item)=>{
-          console.log("data is", data, item)
+          // console.log("data is", data, item)
           return item.category === data
       })
-      console.log("cards are", cards)
+      // console.log("cards are", cards)
       setCards(cards);
   }
 

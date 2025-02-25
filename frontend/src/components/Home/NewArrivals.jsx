@@ -8,7 +8,6 @@ const NewArrivals = () => {
       const getItems = productsData.filter((item)=>{
           return item.category === category;
       }).slice(0,5);
-      console.log(getItems)
       setFilterItems(getItems);
 
       if(category === 'For You'){
